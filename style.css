@@ -1,0 +1,231 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.topDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("https://insights.dice.com/wp-content/uploads/2018/08/shutterstock_1060094186.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  padding: 2rem;
+  height: 20rem;
+}
+
+.titleDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title {
+  font-family: "Anton", sans-serif;
+  font-size: 5rem;
+  color: rgb(255, 255, 255);
+  letter-spacing: 5px;
+  background-color: rgba(77, 0, 128, 0.5);
+  padding: 1rem;
+  font-weight: 200;
+  text-shadow: 1px 1px 1px black;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.inputDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(77, 0, 128, 0.5);
+  padding: 1rem;
+}
+
+.input {
+  width: 20rem;
+  height: 2rem;
+  outline: none;
+  border: none;
+  background-color: rgb(255, 255, 255);
+}
+
+#typeOfTask {
+  height: 2rem;
+  outline: none;
+  border: none;
+  background-color: rgb(225, 225, 226);
+}
+
+.priority {
+  height: 2rem;
+  outline: none;
+  border: none;
+  background-color: rgb(206, 206, 206);
+}
+
+.submitBtn {
+  height: 2rem;
+  outline: none;
+  border: none;
+  width: 2rem;
+  margin-left: 7px;
+  font-size: 2rem;
+  color: white;
+  outline: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.submitBtn:hover {
+  transform: scale(1.3);
+  transform: rotateZ(360deg);
+  transition: transform 0.5s;
+}
+
+.output {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50rem;
+  margin: 1rem;
+  border: 1px solid black;
+  border-radius: 7px;
+  background-color: rgba(180, 179, 179, 0.767);
+}
+
+.topRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  background-color: rgba(81, 24, 156, 0.883);
+  width: 100%;
+}
+
+.taskMainTitle {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 2rem;
+  font-family: "Anton", sans-serif;
+  color: white;
+  letter-spacing: 5px;
+  font-size: 2rem;
+  font-weight: bolder;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+}
+
+.remaining {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin: 2rem;
+  font-family: "Anton", sans-serif;
+  color: white;
+  letter-spacing: 1px;
+  font-size: 1.5rem;
+  -webkit-text-stroke-width: 0.7px;
+  -webkit-text-stroke-color: black;
+}
+
+body {
+  background-color: rgb(7, 4, 42);
+  background-image: url("https://image.freepik.com/free-vector/geometric-shape-background_1189-277.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.clear {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.toDos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.toDoText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.clearBtn {
+  padding: 0.7rem;
+  font-family: "Anton", sans-serif;
+  color: white;
+  background-color: rgba(81, 24, 156, 0.883);
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.clearBtn:hover {
+  transform: scale(1.05);
+  background-color: rgba(68, 22, 128, 0.883);
+}
+
+.task {
+  font-family: "Anton", sans-serif;
+  letter-spacing: 3px;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  -webkit-text-stroke-width: 0.03px;
+  -webkit-text-stroke-color: black;
+}
+
+.indivTask {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.priorTask {
+  margin: 2rem;
+  font-family: "Anton", sans-serif;
+  letter-spacing: 3px;
+  color: red;
+  text-shadow: 1px 1px 1px black;
+  -webkit-text-stroke-width: 0.03px;
+  -webkit-text-stroke-color: black;
+}
+
+.desc {
+  margin: 2rem;
+  font-family: "Anton", sans-serif;
+  letter-spacing: 3px;
+  color: rgb(0, 217, 255);
+  text-shadow: 1px 1px 1px black;
+  -webkit-text-stroke-width: 0.03px;
+  -webkit-text-stroke-color: black;
+}
+
+.appendedDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+  font-size: 1.5rem;
+}
