@@ -18,7 +18,7 @@ submitBtn.addEventListener('click', ()=>{
     const div = document.createElement('table');
     const list = document.createElement('tr');
     
-    list.className = 'appendedDiv';
+    list.className = 'appendedDiv ';
     div.className = 'appendedDiv';
     name.className = 'task';
     type.className = 'desc';
